@@ -22,6 +22,11 @@ a[href="index.html"] {
     left: 20px;
 }
 
+.banner {
+    text-align: center;
+    padding: 150px;
+}
+
 .big {
     font-size: 48px;
     font-family: Prompt, Inter, sans-serif;
@@ -45,11 +50,6 @@ a[href="index.html"] {
     top: -100px;
     z-index: -1;
     opacity: 0.4;
-}
-
-.banner {
-    text-align: center;
-    padding: 150px;
 }
 
 body {
