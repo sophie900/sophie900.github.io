@@ -1,2 +1,3 @@
 # sophie900.github.io
-Personal website
+
+Hello! I'm Sophie. Welcome to my personal site :D
