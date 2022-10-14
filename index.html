@@ -3,89 +3,96 @@
 <html>
 
 <head>
-    <meta charset = "UTF-8">
-    <title>Website of Sophie Rong</title>
-    <link rel="stylesheet" href="sophie900_stylesheet.css">
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <title>Sophie R's personal site</title>
+    <link rel="stylesheet" href="my_stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
+<div id="page_container">
+
+<div id="content_wrap">
+
 <nav>
-    <a href = "about.html">About</a>
-    <a href = "art.html">Art</a>
-    <a href = "videos.html">Videos</a>
-    <a href = "contact.html">Contact</a>
+    <ul>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="art_design.html">Art & Design</a>
+        <a href="contact.html">Contact</a>
+    </ul>
 </nav>
 
-<h1 class = "banner">Hi, I'm Sophie.</h1>
-
-<a href="#s1"><img src="down.png" class="down-button"></a>
-
-
-<a href="index.html">
-    <img src="logo.png" class = "logo">
-</a>
-
-<img src="art/2020/Other/Monet_Study.jpg" class = "bg">
-
-<div id="s1">
-    <img src="logo.png" class="logo-big">
-    <div class="home-text">
-        <div class = "big">About Me</div>
-
-    <br>
-    <br>
-    <div class = "home-text-small">
-    Hello! I am Sophie, a high school student. 
-    I am passionate about... <a href = "about.html">more »</a>
-    </div>
-    </div>
-
-    </span>
+<div class="floating">
+    <h1 class="big_text">Hi, I'm Sophie!</h1>
 </div>
 
-<div id="s2">
-    <div class="home-text">
-        <div class = "big-2">Artwork</div>
+<div class="flex_items">
+    
+    <img src="https://cdn.pixabay.com/photo/2018/11/13/22/01/avatar-3814081_1280.png" class="intro_flex, about_photo">
 
-        <div class="home-art-more">
-            <a href = "art.html">more »</a>
-        </div>
+    <div class="pbox" class="intro_flex" id="about"> 
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Sophie Rong, a 16-year-old high school student currently residing in the U.S.
+            I enjoy creating art, doing math, and coding random things!
+            Wanna talk? Contact me <a href="contact.html">here</a>!<br>
+        </p>
 
+        <h3>My Favorites</h3>
+        <p>
+            Color: <b style=color:#ff4242;>#ff4242</b><br>
+            Animal: cats!<br>
+            Food: dumplings, burritos, chocolate, mango...
+        </p>
     </div>
 
-    <div class="flex-container" id="home-flex">
-        <div class="ref-box"><a href = "art.html">
-            <img src="art/2021/Graphic_Design/Ferrari_Ad_Poster.png"></a><br><br>Ferrari Ad Poster
-        </div>
-
-        <div class="ref-box"><a href = "art.html">
-            <img src="art/2021/Graphic_Design/Social_Media_Infographic.png"></a><br><br>Social Media Infographic
-        </div>
-
-        <div class="ref-box"><a href = "art.html">
-            <img src="art/2021/Other/Dining_Room_Construction.jpg"></a><br><br>Dining Room Construction
-        </div>
-    </div> 
-
-    </span>
 </div>
 
-<footer id="s3">
-    <div class="home-text">
-        <a href = "https://github.com/sophie900" target ="_blank">
-            <img src="GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png" class=icon>
-        </a>
-    </div>
+<div class="pbox">
+    <h2>Art & Design</h2>
+    <ul class="flex_items">
+        <div class="container">
+            <a href="art_design.html"><img src="Art/Shattered_FINAL.jpg" class="featured" loading="lazy"></a>
+            <div class="overlay">Shattered</div>
+        </div>
+
+        <div class="container">
+            <a href="art_design.html"><img src="Design/Leafy_FINAL.png" class="featured" loading="lazy"></a>
+            <div class="overlay">Leafy Font</div>
+        </div>
+
+        <div class="container">
+            <a href="art_design.html"><img src="Design/Dada_Kit_FINAL.jpg" class="featured" loading="lazy"></a>
+            <div class="overlay">Dada Kit</div>
+        </div>
+
+        <div class="container">
+            <a href="art_design.html"><img src="Art/Untitled.jpg" class="featured" loading="lazy"></a>
+            <div class="overlay">Untitled</div>
+        </div>
+    </ul>
+</div>
+
+<div class="pbox" id="contact">
+    <h2>Contact</h2>
+    <p class="flex_items">
+        <a href="https://github.com/sophie900" target=”blank”><img src="GitHub-Mark/PNG/GitHub-Mark-120px-plus.png"></a>
+        <a href="mailto: sophie.rong@gmail.com" target=”blank”><img src="Gmail_icon/icons8-gmail-480.png"></a>
+    </p>
+    <p>
+        Discord: sr#2908
+    </p>
+</div>
+
+</div>
+
+<footer id="footer">
+    Last updated: 13 October 2022
 </footer>
+
+</div>
 
 </body>
 
