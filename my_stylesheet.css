@@ -60,10 +60,10 @@ div a:hover {
 }
 
 .featured {
-    height: calc(20vw + 8rem);
+    height: calc(15vw + 6rem);
     border-radius: 1.5rem;
     transition: 0.3s;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .featured:hover {
