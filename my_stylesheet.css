@@ -91,6 +91,7 @@ div a:hover {
 
 footer {
     background-color: rgba(255, 255, 255, 0.05);
+    color: rgb(187, 187, 187);
     font-family: 'Manrope', sans-serif;
     font-size: calc(1.5vh + 4px);
     padding: 2rem;
@@ -99,7 +100,7 @@ footer {
 }
 
 .footer_link {
-    color: rgb(220, 220, 220);
+    color: rgb(187, 187, 187);
 }
 
 .footer_link:hover {
