@@ -133,7 +133,6 @@ html {
 
 nav {
     font-family: 'Manrope', sans-serif;
-    margin-top: calc(2vw + 10px);
     text-align: center;
 }
 
@@ -142,8 +141,9 @@ nav ul {
 }
 
 nav ul a {
+    display: inline-block;
     font-size: calc(2vh + 4px);
-    margin: calc(2vw + 10px);
+    margin: calc(1vw + 5px) calc(2vw + 10px) calc(1vw + 5px) calc(2vw + 10px);
 }
 
 nav ul a:hover {
