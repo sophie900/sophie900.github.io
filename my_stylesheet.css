@@ -107,6 +107,10 @@ footer {
     color: rgb(143, 143, 143);
 }
 
+h1, h2, h3 {
+    margin: 0;
+}
+
 h1, h2, h3, .overlay {
     font-family: 'Figtree', sans-serif;
 }
