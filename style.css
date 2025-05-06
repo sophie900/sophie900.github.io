@@ -1,0 +1,112 @@
+:root {
+    --bg-color: #ebe8d7;
+    --text-color: #222929;
+    --link-color: #436659;
+    --visited-link-color: #634674;
+}
+
+html {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.page-header {
+    margin-top: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+}
+
+.nav-item {
+    position: relative;
+    margin-left: 6vw;
+    color: var(--link-color);
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Credit to Tobias Ahlin for hover animation */
+.nav-item::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--link-color);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover::before {
+    transform: scaleX(1);
+}
+
+#site-header-container {
+    position: absolute;
+    top: 30px;
+    font-weight: bold;
+}
+
+#site-header {
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: 24px;
+}
+
+#home-header {
+    font-size: 96px;
+}
+
+#design-portfolio {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--link-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.portfolio_slide {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.generic-link {
+    color: var(--link-color);
+}
+
+.generic-link:visited {
+    color: var(--visited-link-color);
+}
+
+ul li {
+    list-style-type: circle;
+    line-height: 24px;
+}
+
+/* 
+iframe {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
