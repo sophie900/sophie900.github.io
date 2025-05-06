@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49794e93.css",
+    "main.js": "/static/js/main.8531f375.js",
+    "static/media/02 Concealed Memories.png": "/static/media/02 Concealed Memories.e4726c238e9baa157295.png",
+    "static/media/hero_img.png": "/static/media/hero_img.d014ad4b1e384137982d.png",
+    "static/media/15 Sonder.png": "/static/media/15 Sonder.cb4e4dd59ad0c6f1eb6d.png",
+    "static/media/07 Two-Faced.png": "/static/media/07 Two-Faced.c21c2a2ba33f04c6d59c.png",
+    "static/media/14 In the Shadows.png": "/static/media/14 In the Shadows.913226f7ef3a36b0517d.png",
+    "static/media/06 Entropy.jpg": "/static/media/06 Entropy.59168e76371279367cb6.jpg",
+    "static/media/01 Rhythm.png": "/static/media/01 Rhythm.56ba370c0f76b800f3a1.png",
+    "static/media/08 Invisible.png": "/static/media/08 Invisible.9c3cd4bfcaa7124b5282.png",
+    "static/media/03 Decomposition.jpg": "/static/media/03 Decomposition.fe781ca0f3d482bd6c38.jpg",
+    "static/media/05 An Inch of Gold for an Inch of Time.jpg": "/static/media/05 An Inch of Gold for an Inch of Time.13201125214e4cebf578.jpg",
+    "static/media/04 Fragments of Us.jpg": "/static/media/04 Fragments of Us.ae02ffc0ebb5598caace.jpg",
+    "static/media/13 Modular Typeface.png": "/static/media/13 Modular Typeface.58b13e8ec1b7d3a1c3b7.png",
+    "static/media/09 Evolution.jpg": "/static/media/09 Evolution.f34bdc4e43ccc79d85c9.jpg",
+    "static/media/12 Dada Kit.png": "/static/media/12 Dada Kit.42f5b627f389e18a0d01.png",
+    "static/media/10 Systems.jpg": "/static/media/10 Systems.434be275b1f5afe73fdf.jpg",
+    "static/media/True_2_You.png": "/static/media/True_2_You.a805e12958f3e88ed116.png",
+    "static/media/11 Tea Time.png": "/static/media/11 Tea Time.6661fa8c3135d1cec9b0.png",
+    "static/media/The Comedy of Errors Poster.png": "/static/media/The Comedy of Errors Poster.5ed477372a0e17f18abe.png",
+    "static/media/October_1.png": "/static/media/October_1.f4248c250e2f836a5e06.png",
+    "static/media/Sea_Turtle_Poster.png": "/static/media/Sea_Turtle_Poster.e517b6dcaca9bb254cc8.png",
+    "static/media/double_downward_arrow.svg": "/static/media/double_downward_arrow.0e57c35e58943b3e1533.svg",
+    "index.html": "/index.html",
+    "main.49794e93.css.map": "/static/css/main.49794e93.css.map",
+    "main.8531f375.js.map": "/static/js/main.8531f375.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49794e93.css",
+    "static/js/main.8531f375.js"
+  ]
+}
