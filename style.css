@@ -2,7 +2,6 @@
     --bg-color: #ebe8d7;
     --text-color: #222929;
     --link-color: #436659;
-    --visited-link-color: #634674;
 }
 
 html {
@@ -90,12 +89,8 @@ nav {
     margin-right: 10%;
 }
 
-.generic-link {
+a {
     color: var(--link-color);
-}
-
-.generic-link:visited {
-    color: var(--visited-link-color);
 }
 
 ul li {
